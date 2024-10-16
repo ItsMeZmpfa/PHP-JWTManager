@@ -1,0 +1,42 @@
+{
+    "name": "itsmezmpfa/php-jwt",
+    "description": "A simple Library to manage JWTManager in Php",
+    "keywords": [
+        "auth",
+        "jwt",
+        "decode",
+        "encode",
+        "zmpfa-router",
+        "itsMezmpfa"
+    ],
+    "autoload": {
+        "psr-4": {
+            "ItsMeZmpfa\\": "src/ItsMeZmpfa",
+            "ItsMeZmpfa\\tests\\": "tests/"
+        }
+    },
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "ItsMeZmpfa",
+            "email": "joria220@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1",
+        "phpstan/phpstan": "^1.12",
+        "phpunit/phpunit": "11",
+        "vlucas/phpdotenv": "*"
+    },
+    "license": "MIT",
+    "scripts": {
+        "Test": [
+            "phpunit tests"
+        ]
+    }
+}
