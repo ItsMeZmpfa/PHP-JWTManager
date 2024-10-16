@@ -3,12 +3,12 @@
 ## ItsMeZmpfa PHP-JWT Manager
 PHP-JWTManager is a PHP package for build Encoding, Decoding, verifying and validating JSON WEB Tokens.
 
-Supported algorithms:
-    HMAC: HS512
+- Supported algorithms:
+    - HMAC: HS512
 
-Supported Features:
-Built-in and custom validations
-Multiple key and kid header handler
+- Supported Features:
+    - Built-in and custom validations
+    - Multiple key and kid header handler
 
 ## Getting started
 
